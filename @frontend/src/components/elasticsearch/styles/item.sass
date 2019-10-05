@@ -1,0 +1,73 @@
+@import base
+
+%ela-item
+  opacity: 0.8
+%ela-item:hover
+  opacity: 1
+
+
+.ItemCard
+  @extend %card-item
+  @extend %ela-item
+  width: 97%
+  margin-bottom: 2%
+  font-size: 14px
+  transition: 0.3s
+  margin-left: 1%
+  box-shadow: 0px 0px 0.5px 0.5px $app-primary-color-background
+.ItemCard:hover
+  box-shadow: 0px 0px 0.5px 0.5px $app-primary-color-theme
+
+.ItemTitle
+  width: 100%
+  background-color: $app-primary-color-theme
+  border-radius: .2857rem .2857rem 0 0
+  padding: 1%
+  padding-left: 2%
+  font-weight: bold
+  font-size: 20px
+  transition: 0.3s
+  cursor: pointer
+
+.ItemHidden
+    vertical-align: middle
+    padding: 12px
+    padding-left: 30px
+    margin-bottom: 1%
+    margin-left: 30px
+    margin-right: 30px
+    border-style: solid
+    border-width: 2px 20px 2px 20px
+    border-color: rgba(91, 212, 109, 1)
+    border-radius: 10px 10px 10px 10px
+    transition: 1s
+
+.ItemHiddenText
+
+.ItemHiddenText2
+
+.item-hidden-button
+  border-width: 0.5px
+.item-hidden-button2
+  display: none
+
+.ItemHiddenLoading
+    vertical-align: middle
+    padding: 12px
+    padding-left: 30px
+    padding-right: 30px
+    margin-bottom: 1%
+    margin-left: 30px
+    margin-right: 30px
+    border-style: solid
+    border-width: 2px 20px 2px 20px
+    border-color: $app-primary-color-loading
+    border-radius: 10px 10px 10px 10px
+    transition: 0.3s
+
+.ItemHiddenImg
+    width :  40px
+    height :  40px
+    backgroundColor: white
+    spaceborderRadius: 50px
+    padding :  2px

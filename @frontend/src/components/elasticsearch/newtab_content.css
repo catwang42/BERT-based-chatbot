@@ -1,0 +1,59 @@
+
+
+.GeneratedHtml p{
+  transition: 0.3s;
+}
+
+.GeneratedHtml p:hover{
+  box-shadow: 0px 2px 2px 1.5px rgba(148, 149, 150, 0.3);
+}
+
+.L0NormalBoldChar{
+  font-size: 13px;
+}
+.pagerating {
+  position: absolute;
+  top: 60vh;
+  right: 15px;
+  z-index: 1;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 5px;
+  padding-left: 20px;
+  display: flex;
+  border-radius: 10px 0px 0px 10px;
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#highlight {
+  padding: 1%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  background: linear-gradient(270deg, #f3f208, #ffffff, #f6ef00);
+  background-size: 400% 400%;
+  color: #320518;
+  border-radius: 10px;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 76%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 76%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 76%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 76%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 76%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 76%}
+}

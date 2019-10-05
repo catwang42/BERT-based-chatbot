@@ -1,0 +1,130 @@
+body:hover {
+  color:#4e8cff;
+}
+
+.AnswerCard {
+  width: 99%;
+  box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 2%;
+  font-size: @fontSize;
+  transition: 0.5s;
+  -webkit-animation: fadein 0.5s ease-in; /* Safari, Chrome and Opera > 12.1 */
+        animation: fadein 0.5s ease-in;
+}
+
+
+@keyframes fadein {
+  0% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  0% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.AnswerCardList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.AnswerCardTitle {
+  width: 100%;
+  background-color: rgba(15, 27, 48, 0.2);
+  border-radius: 15px 15px 0 0;
+  padding: 1%;
+  padding-left: 3%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.AnswerCardContent {
+  width: 100%;
+  padding: 1.5% 4% 0.5% 4%;
+  border-radius: 15px 15px 15px 15px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.AnswerCardBottom {
+  width: 100%;
+  display: flex;
+  padding: 2%;
+  justify-content: flex-end;
+}
+
+.AnswerCardSVG {
+  font-size: 23px;
+  padding-top: 3%;
+}
+
+.AnswerCardButs {
+  padding-left: 30px;
+  display: flex;
+
+}
+
+.AnswerCardBut0 {
+  border-radius: 15px;
+  border-color: rgb(208, 220, 239);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  display: none;
+}
+
+.AnswerCardBut1 {
+  border-radius: 15px 0 0 15px;
+  border-color: rgb(208, 220, 239);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  padding-right: 2px;
+  padding-left: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.AnswerCardBut2 {
+  border-radius: 0 15px 15px 0;
+  border-color: rgb(208, 220, 239);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  padding-right: 5px;
+  padding-left: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.AnswerCardBut3 {
+
+}
+
+
+.AnswerCardText0 {
+  font-size: 15px;
+  padding-left: 2%;
+  color: black;
+}
+
+.AnswerCardText {
+  font-size: 18px;
+  padding-left: 2%;
+  color: black;
+}
+
+
+.Dislike {
+  font-size: 15px;
+  padding-top: 3px;
+}

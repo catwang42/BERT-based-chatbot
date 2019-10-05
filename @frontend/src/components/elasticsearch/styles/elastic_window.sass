@@ -1,0 +1,48 @@
+@import base
+
+
+.ela-container1
+  @extend %card
+  height: 90vh
+  border-radius: 20pxs
+  background-color: white
+  transition: 0.3s
+  margin-right: 2%
+  padding: 2%
+
+.PaneContent
+  overflow-y: scroll
+  height: 75vh
+  margin: 1%
+
+
+
+.WelcomePane
+  height: 95vh
+  line-height: 85vh
+  text-align: center
+
+
+
+.WelcomeText
+ position: relative
+ text-transform: uppercase
+ font-size: 40px
+ font-weight: 500
+ letter-spacing: 4px
+ overflow: hidden
+ background: linear-gradient(666deg,  #4e8cff, #4e8cff, #FFF)
+ background-repeat: no-repeat
+ background-size: 80%
+ animation: animate 5s ease-in infinite
+ -webkit-background-clip: text
+ -webkit-text-fill-color: rgba(255, 255, 255, 0)
+
+
+
+@keyframes animate
+  0%
+    background-position: -600%
+
+  100%
+    background-position: 600%

@@ -1,0 +1,63 @@
+.sc-header {
+  background: #4e8cff;
+  min-height: 75px;
+  border-top-left-radius: .2857rem;
+  border-top-right-radius: .2857rem;
+  color: white;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  position: inherit;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.sc-header--img {
+  max-width: 55px;
+  max-height: 55px;
+  border-radius: 50%;
+  align-self: center;
+  padding: 7px;
+}
+
+.sc-header--link {
+  border-radius: 50%;
+  align-self: center;
+  font-size: 25px;
+  margin-right: -8px;
+}
+
+.sc-header--team-name {
+  font-size: 18px;
+  align-self: center;
+  padding: 10px;
+  flex: 1;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.sc-header--close-button {
+  width: 40px;
+  align-self: center;
+  height: 40px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sc-header--close-button:hover {
+  background: #4882ed;
+}
+
+.sc-header--close-button img {
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 450px) {
+  .sc-header {
+    border-radius: 0px;
+  }
+}
