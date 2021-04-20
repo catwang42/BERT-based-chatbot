@@ -106,7 +106,7 @@ preshed==2.0.1
 prometheus-client==0.6.0
 prompt-toolkit==2.0.9
 protobuf==3.8.0
-py==1.8.0
+py==1.10.0
 py-thesaurus==1.0.5
 pyasn1==0.4.5
 pycparser==2.19
