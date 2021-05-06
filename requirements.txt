@@ -41,7 +41,7 @@ flaky==3.5.3
 flasgger==0.9.1
 Flask==1.0.2
 Flask-Cache==0.13.1
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 ftfy==5.5.1
 futures==3.1.1
 fuzzywuzzy==0.17.0
